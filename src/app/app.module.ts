@@ -8,6 +8,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { JobListingsComponent } from './job-listings/job-listings.component';
+import { AppliedJobsComponent } from './applied-jobs/applied-jobs.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { JobListingsComponent } from './job-listings/job-listings.component';
     LandingPageComponent,
     HeaderComponent,
     FooterComponent,
-    JobListingsComponent
+    JobListingsComponent,
+    AppliedJobsComponent
   ],
   imports: [
     BrowserModule,
