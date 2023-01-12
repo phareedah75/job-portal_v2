@@ -12,6 +12,8 @@ import { AppliedJobsComponent } from './applied-jobs/applied-jobs.component';
 import { FormSearchComponent } from './form-search/form-search.component';
 import { JobSelectComponent } from './job-select/job-select.component';
 import { CompanyInfoComponent } from './company-info/company-info.component';
+import { PostJobComponent } from './post-job/post-job.component';
+import { JobDescriptionComponent } from './job-description/job-description.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CompanyInfoComponent } from './company-info/company-info.component';
     AppliedJobsComponent,
     FormSearchComponent,
     JobSelectComponent,
-    CompanyInfoComponent
+    CompanyInfoComponent,
+    PostJobComponent,
+    JobDescriptionComponent
   ],
   imports: [
     BrowserModule,
